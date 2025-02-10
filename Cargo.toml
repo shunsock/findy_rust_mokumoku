@@ -1,5 +1,5 @@
 [workspace]
 resolver = "1"
 members = [
-    "fizzbuzz",
+    "fizzbuzz", "fizzbuzz_vectors",
 ]
