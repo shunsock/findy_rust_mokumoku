@@ -16,8 +16,5 @@ WORKDIR /app
 
 COPY . /app
 
-# コンテナ起動時に実行するコマンドを指定
-ENTRYPOINT ["/bin/bash"]
-
 # デフォルトのシェルを実行
-CMD ["-c", "tail -f /dev/null"]
+CMD ["/bin/bash"]
